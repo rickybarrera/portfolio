@@ -1,4 +1,4 @@
-import Contact from "./components/Contact/contact";
+import Contact, { ContactUs } from "./components/Contact/contact";
 import Intro from "./components/Intro/intro";
 import Portfolio from "./components/Portfolio/portfolio";
 import Topbar from "./components/Topbar/Topbar";

@@ -1,3 +1,30 @@
 .works {
-    background-color: lightgreen;
+    background-color: white;
 }
+#skills > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            vertical-align: middle;
+  }
+  
+  .skill > p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    color: #232323;
+  }
+  
+  .icon {
+    position: relative;
+    font-size: 5rem;
+    margin: 15px;
+  }

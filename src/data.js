@@ -39,11 +39,6 @@ export const javascriptPortfolio = [
         img : "assets/MongooseSongs.png"
     },
     {
-        id: 3,
-        title: 'Check Me Out',
-        img : "assets/CheckMeOut.png"
-    },
-    {
         id: 4,
         title: 'React Spotify Clome',
         img : "assets/SpotifyClone.png"
@@ -54,5 +49,10 @@ export const pythonPortfolio = [
         id: 1,
         title: 'Django Sneaker app',
         img : "assets/DjangoShoes.png"
+    },
+    {
+        id: 3,
+        title: 'Check Me Out',
+        img : "assets/CheckMeOut.png"
     },
 ]

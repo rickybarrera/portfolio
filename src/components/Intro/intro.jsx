@@ -10,7 +10,7 @@ export default function Intro() {
       showCursor: false,
       backDelay: 1500,
       backSpeed:60,
-      strings:["22 Years old", "Fullstack Developer", "Software Engineer", ]
+      strings:["22 Years old", "Frontend Developer", "Fullstack Developer", "Software Engineer", ]
 
     }); 
   },[]);

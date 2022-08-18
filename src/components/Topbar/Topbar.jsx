@@ -2,6 +2,7 @@ import React from 'react'
 import './Topbar.scss'
 import EmailIcon from '@mui/icons-material/Email';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={'TopBar ' + (menuOpen && 'active') }>
@@ -15,6 +16,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         </div>
         <EmailIcon className='icon' />
         <span>rickybarrera0@gmail.com</span>
+        <span>
+          <a href='https://www.linkedin.com/in/ricky-barrera/'>
+        <LinkedInIcon className='icon' />
+          </a>
+        </span>
        </div>
         <div className="right">
             <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>

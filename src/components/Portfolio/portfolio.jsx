@@ -32,8 +32,10 @@ export default function Portfolio() {
       case 'featured':
         setData(featuredPortolio);
         break;
+        case 'javascript':
         setData(javascriptPortfolio);
         break;
+        case 'python':
         setData(pythonPortfolio);
         break;
       default:
@@ -42,7 +44,7 @@ export default function Portfolio() {
   },[selected])
   return (
     <div className='portfolio' id='portfolio'>
-      <h1>Portfolio</h1>
+      <h1>Project Portfolio</h1>
       <ul>
       {list.map((item) => (
           <PortfolioList

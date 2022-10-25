@@ -33,6 +33,6 @@ export default function Intro() {
          </a> 
       </div>
     </div>
-      intro</div>
+      </div>
   )
 }

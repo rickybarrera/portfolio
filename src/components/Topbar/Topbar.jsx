@@ -3,6 +3,7 @@ import './Topbar.scss'
 import EmailIcon from '@mui/icons-material/Email';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={'TopBar ' + (menuOpen && 'active') }>
@@ -19,6 +20,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <span>
           <a href='https://www.linkedin.com/in/ricky-barrera/'>
         <LinkedInIcon className='icon' />
+          </a>
+        </span>
+        <span>
+        <a href='https://github.com/rickybarrera'>
+        <GitHubIcon className='icon' />
           </a>
         </span>
        </div>

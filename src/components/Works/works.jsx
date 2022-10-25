@@ -3,7 +3,7 @@ import './works.scss'
 import { SiPython, SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiSass, SiReact, SiBootstrap, SiGithub, SiAmazonaws, SiDjango } from 'react-icons/si' 
 export default function Works() {
   return (
-    <div className='works' id='works'>
+    <div className='works' id='works' >
     <div>
     <section id="skills">
         <div className='container'>

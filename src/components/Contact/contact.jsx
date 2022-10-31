@@ -18,8 +18,8 @@ export default function Contact() {
     return(
         <div className="contact" id="contact">
             <div className="about">
-            <h3 className="resume"> About Ricky  </h3>
-            <p> I am a 22 year old based out of Los Angeles California looking for a role in full stack or front end development. I recently completed the software engineering immersive program with General Assembly and despite the challenges of it the lessons as an individual and developer were well worth it. Software engineering is a field that has always interested me because I love being able to solve problems and exploring the unknowns of anything excites me. Ultimately I am looking for a role that will lead to growth for myself not only as a developer but as an individual as well. Please feel free to contact me or connect with me regarding any opportunities via email and I will do my best to respond promptly. </p>
+            <h1 className="resume"> About Ricky  </h1>
+            <p className="text"> I am a 22 year old based out of Los Angeles California looking for a role in full stack or front end development. I recently completed the software engineering immersive program with General Assembly and despite the challenges of it the lessons as an individual and developer were well worth it. Software engineering is a field that has always interested me because I love being able to solve problems and exploring the unknowns of anything excites me. Ultimately I am looking for a role that will lead to growth for myself not only as a developer but as an individual as well. Please feel free to contact me or connect with me regarding any opportunities via email and I will do my best to respond promptly. </p>
             </div>
           <section class="mb-4">
             <div className="message"> <h2> Contact Me ! </h2> </div>
@@ -43,6 +43,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </form>
+              
             </div>
           </section>
         </div>

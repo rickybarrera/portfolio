@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://{rickybarrera}.github.io/{portfolio}",
+  "homepage": "https://{rickybarrera}.github.io/{portfolio}",
   "engines": {
     "node": "v17.9.0"
   },

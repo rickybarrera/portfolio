@@ -57,7 +57,7 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         <div className="item">
-          <img src="assets/wordleScreenshot.png" alt="" />
+          <img src="./assets/wordleScreenshot.png" alt="" />
           <h3>Wordle</h3>
           <span>
           <a href='https://github.com/rickybarrera/Wordle'>

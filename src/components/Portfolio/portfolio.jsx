@@ -99,7 +99,7 @@ export default function Portfolio() {
            <a href='https://github.com/turpen2319/creative_marketplace'>
           <GitHubIcon />
           </a>
-          <a href='https://checkmeout-marketplace.herokuapp.com/products/'>
+          <a href='https://checkme-out.herokuapp.com/products/'>
           <OpenInBrowserIcon />
           </a>
            </span> 
